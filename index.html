@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONVERT TEXT-TYPE TO FILE-TYPE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>TEXT CONVERSION TO FILE</h1>
+    <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Enter your text here"></textarea>
+    <div class="fileToSave">
+        <div class="name1">
+            <label id ="name">File Name</label>
+            <input type="text" name="fileName" id="fileName" placeholder="Enter file name">
+        </div>
+        <div class="name2">
+            <label id ="name">Save As</label>
+            <select name="file" id="file">
+                <option value="text/plain">text file (.txt)</option>
+                <option value="text/css">css file (.css)</option>
+                <option value="text/html">html file (.html)</option>
+                <option value="image/jpg">image file (.jpg)</option>
+                <option value="application/msword">document file (.doc)</option>
+                <option value="application/vnd.ms-powerpoint">power-point (.ppt)</option>
+                <option value="text/javascript">javascript file (.js)</option>
+                <option value="text/scss">SASS file (.scss)</option>
+                <option value="application/pdf">PDF file (.pdf)</option>
+                <option value="image/svg+xml">SVG file (.svg)</option>
+            </select>
+        </div>
+    </div>
+    <button id="btn" type="button">SAVE AS TEXT</button>
+    <script src="file.js"></script>
+</body>
+</html>

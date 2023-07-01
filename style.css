@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  place-content: center;
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  background-color: burlywood;
+}
+#textarea {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  font-size: 20px;
+  border-style: ridge;
+  border-width: 10px;
+  border-radius: 5px;
+  margin: auto;
+}
+.fileToSave {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.name1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.name2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#name {
+  color: blue;
+  font-size: 20px;
+  margin: 10px auto;
+}
+#fileName {
+  padding: 10px;
+  border: none;
+  outline: none;
+  appearance: none;
+  font-size: 17px;
+  margin: auto 10px;
+  width: 100%;
+  flex: 1;
+}
+#file {
+  padding: 10px;
+  border: none;
+  outline: none;
+  appearance: none;
+  font-size: 17px;
+  margin: auto 10px;
+  flex: 1;
+  width: 100%;
+  cursor: pointer;
+}
+#btn {
+  padding: 10px;
+  margin: 10px auto;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  appearance: none;
+  transition: all 1s ease;
+}
+#btn:hover {
+  background-color: aqua;
+  color: black;
+}
+h1 {
+  background-color: crimson;
+  background: linear-gradient(to right, green, lightblue, lightgreen);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin: 10px auto;
+}
